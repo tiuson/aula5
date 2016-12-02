@@ -1,0 +1,16 @@
+Exercício 1
+Para suportar dados de dispositivos IoT, a infraestrutura mais adequada seria 
+um banco de dados distribuído que pudesse apresentar tolerância a falhas para evitar
+downtime e que não exigisse formato rígido para arquivamento dos dados, permitindo
+que qualquer estrutura de dados já conhecida ou inovadora pudesse ser facilmente
+arquivada para utilização futura. Para atender estes requisitos, um banco de dados
+NoSQL que apresente as propriedades de disponibilidade (Avaliability) e tolerância
+a falhas (Partition Tolerance) como Cassandra, Dynamo ou CouchDB seriam opções
+indicadas para a infraestrutura.
+
+Exercício 2
+Uma aplicação que está em construção e pode utilizar a infraestrutura de bancos
+NoSQL é uma caixa postal que atenderá os contribuintes de Belo Horizonte e terá
+que disponibilizar documentos oriundos de diversas fontes e com formatos diferentes
+para compreender todos os tipos de comunicação oficial pretendidos.
+
